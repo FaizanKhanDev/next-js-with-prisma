@@ -13,5 +13,5 @@ then fill the `.env` file with your credentials
 then create the database schema
     `npx prisma db push`
 then generate classes of the schema
-    `npx prisma generate`
+    `npx prisma generate npx prisma generate`
 * run the application using `pnpm dev` on localhost:3000
