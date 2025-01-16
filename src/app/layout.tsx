@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
-// import "./globals.css";
 import { Toaster } from "@/components/ui/toaster";
-
+import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -19,6 +18,7 @@ export default function RootLayout({
         <main>{children}</main>
         <Toaster />
       </body>
-    </html >
+    </html>
   );
 }
+
